@@ -140,9 +140,9 @@ public class Athena
                     if (SecondaryToken.equals(username))
                     {
                         //Need to consume 3 more lines
-                        String TertiaryToken = inFile2.nextLine( );
-                        String FourthToken = inFile2.nextLine( );
-                        String FifthToken = inFile2.nextLine( );
+                        inFile2.nextLine( );
+                        inFile2.nextLine( );
+                        inFile2.nextLine( );
                         String SixthToken = inFile2.nextLine( );
                         if(SixthToken.equals("1")){wins++;}
                         else if (SixthToken.equals("½")){draws++;}
@@ -151,10 +151,10 @@ public class Athena
                     else if (1 > 0)
                     {
                         //Need to consumer 3 more lines
-                        String tokenThree = inFile2.nextLine( );
-                        String tokenFour = inFile2.nextLine( );
-                        String tokenFive = inFile2.nextLine( );
-                        String tokenSix = inFile2.nextLine( );
+                        inFile2.nextLine( );
+                        inFile2.nextLine( );
+                        inFile2.nextLine( );
+                        inFile2.nextLine( );
                         String tokenSeven = inFile2.nextLine( );
                         if (tokenSeven.equals("1")){wins++;}
                         else if (tokenSeven.equals("½")){draws++;}
